@@ -1,32 +1,25 @@
+@file:Suppress("UnstableApiUsage")
+
 rootProject.name = "ai-translator"
 
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
-        google {
-            content { 
-              	includeGroupByRegex("com\\.android.*")
-              	includeGroupByRegex("com\\.google.*")
-              	includeGroupByRegex("androidx.*")
-              	includeGroupByRegex("android.*")
-            }
-        }
-        gradlePluginPortal()
+        google()
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 
 dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
-        google {
-            content { 
-              	includeGroupByRegex("com\\.android.*")
-              	includeGroupByRegex("com\\.google.*")
-              	includeGroupByRegex("androidx.*")
-              	includeGroupByRegex("android.*")
-            }
-        }
+        google()
         mavenCentral()
     }
 }
-include(":composeApp")
 
+include(":composeApp")
+include(":core:ui")
+include(":core:model")
+include(":core:common")
