@@ -1,6 +1,6 @@
 @file:Suppress("UnstableApiUsage")
 
-rootProject.name = "ai-translator"
+rootProject.name = "CalorieTune"
 
 pluginManagement {
     includeBuild("build-logic")
@@ -23,3 +23,4 @@ include(":composeApp")
 include(":core:ui")
 include(":core:model")
 include(":core:common")
+include(":feature:home")

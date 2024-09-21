@@ -5,11 +5,11 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
 import java.awt.Dimension
-import me.matsumo.translator.App
+import me.matsumo.calorie.tune.App
 
 fun main() = application {
     Window(
-        title = "ai-translator",
+        title = "CalorieTune",
         state = rememberWindowState(width = 800.dp, height = 600.dp),
         onCloseRequest = ::exitApplication,
     ) {

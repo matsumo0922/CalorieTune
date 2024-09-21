@@ -1,7 +1,6 @@
+
 import com.codingfeline.buildkonfig.compiler.FieldSpec
 import com.codingfeline.buildkonfig.gradle.TargetConfigDsl
-import org.jetbrains.compose.ExperimentalComposeLibrary
-import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import java.util.Properties
 
 plugins {
@@ -12,12 +11,14 @@ plugins {
 }
 
 android {
-    namespace = "me.matsumo.translator"
+    namespace = "me.matsumo.calorie.tune"
 }
 
 kotlin {
     sourceSets {
         commonMain.dependencies {
+            implementation(project(":feature:home"))
+
             implementation(project(":core:common"))
             implementation(project(":core:model"))
             implementation(project(":core:ui"))
@@ -36,7 +37,7 @@ buildkonfig {
         if (file.exists()) load(file.inputStream())
     }
 
-    packageName = "me.matsumo.translator"
+    packageName = "me.matsumo.calorie.tune"
 
     defaultConfigs {
         putBuildConfig(localProperties, "OPEN_AI_API_KEY")

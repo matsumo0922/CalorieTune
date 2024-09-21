@@ -1,12 +1,12 @@
 package primitive
 
-import me.matsumo.translator.dsl.androidTestImplementation
-import me.matsumo.translator.dsl.commonExt
-import me.matsumo.translator.dsl.debugImplementation
-import me.matsumo.translator.dsl.implementation
-import me.matsumo.translator.dsl.library
-import me.matsumo.translator.dsl.libs
-import me.matsumo.translator.dsl.version
+import me.matsumo.calorie.tune.dsl.androidTestImplementation
+import me.matsumo.calorie.tune.dsl.commonExt
+import me.matsumo.calorie.tune.dsl.debugImplementation
+import me.matsumo.calorie.tune.dsl.implementation
+import me.matsumo.calorie.tune.dsl.library
+import me.matsumo.calorie.tune.dsl.libs
+import me.matsumo.calorie.tune.dsl.version
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.dependencies
@@ -41,7 +41,7 @@ class ComposePlugin : Plugin<Project> {
 
                     nativeDistributions {
                         targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-                        packageName = "me.matsumo.translator"
+                        packageName = "me.matsumo.calorie.tune"
                         packageVersion = libs.version("versionName")
                     }
                 }

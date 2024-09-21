@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "me.matsumo.translator.core.ui"
+    namespace = "me.matsumo.calorie.tune.core.ui"
 }
 
 kotlin {
@@ -61,6 +61,6 @@ kotlin {
 
 compose.resources {
     publicResClass = true
-    packageOfResClass = "me.matsumo.translator.core.ui"
+    packageOfResClass = "me.matsumo.calorie.tune.core.ui"
     generateResClass = always
 }

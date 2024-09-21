@@ -1,10 +1,10 @@
 package primitive
 
-import me.matsumo.translator.configureKsp
-import me.matsumo.translator.dsl.androidLibrary
-import me.matsumo.translator.dsl.libs
-import me.matsumo.translator.dsl.setupAndroid
-import me.matsumo.translator.dsl.version
+import me.matsumo.calorie.tune.configureKsp
+import me.matsumo.calorie.tune.dsl.androidLibrary
+import me.matsumo.calorie.tune.dsl.libs
+import me.matsumo.calorie.tune.dsl.setupAndroid
+import me.matsumo.calorie.tune.dsl.version
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 

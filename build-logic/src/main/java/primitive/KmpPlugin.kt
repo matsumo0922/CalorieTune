@@ -2,12 +2,12 @@
 
 package primitive
 
-import me.matsumo.translator.dsl.android
-import me.matsumo.translator.dsl.bundle
-import me.matsumo.translator.dsl.kotlin
-import me.matsumo.translator.dsl.library
-import me.matsumo.translator.dsl.libs
-import me.matsumo.translator.dsl.version
+import me.matsumo.calorie.tune.dsl.android
+import me.matsumo.calorie.tune.dsl.bundle
+import me.matsumo.calorie.tune.dsl.kotlin
+import me.matsumo.calorie.tune.dsl.library
+import me.matsumo.calorie.tune.dsl.libs
+import me.matsumo.calorie.tune.dsl.version
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.internal.impldep.org.yaml.snakeyaml.composer.ComposerException

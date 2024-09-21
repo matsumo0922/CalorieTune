@@ -1,8 +1,8 @@
 package primitive
 
-import me.matsumo.translator.configureDetekt
-import me.matsumo.translator.dsl.library
-import me.matsumo.translator.dsl.libs
+import me.matsumo.calorie.tune.configureDetekt
+import me.matsumo.calorie.tune.dsl.library
+import me.matsumo.calorie.tune.dsl.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.dependencies

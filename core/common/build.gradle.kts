@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "me.matsumo.translator.core.common"
+    namespace = "me.matsumo.calorie.tune.core.common"
 }
 
 kotlin {
