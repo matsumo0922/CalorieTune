@@ -24,10 +24,9 @@ internal fun HomeScreen(
             HomeTopAppBar(
                 modifier = Modifier.fillMaxWidth(),
                 scrollBehavior = behavior,
-                onMenuClicked = {  },
+                onMenuClicked = { },
             )
-        }
+        },
     ) {
-
     }
 }

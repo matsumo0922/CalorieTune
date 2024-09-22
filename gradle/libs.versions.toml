@@ -20,16 +20,16 @@ kotlinxIO = "0.5.3"
 
 # KMP
 kmpCompose = "1.7.0-beta02"
-kmpLifecycle = "2.8.0"
-kmpNavigation = "2.8.0-alpha02"
+kmpLifecycle = "2.8.2"
+kmpNavigation = "2.8.0-alpha10"
 
 # AndroidX
 androidxCore = "1.13.1"
 androidxAppCompat = "1.7.0"
-androidxActivity = "1.9.1"
-androidxLifecycle = "2.8.4"
-androidxCompose = "2024.09.01"
-androidxNavigation = "2.7.7"
+androidxActivity = "1.9.2"
+androidxLifecycle = "2.8.6"
+androidxCompose = "2024.09.02"
+androidxNavigation = "2.8.1"
 
 # Google
 material = "1.12.0"
@@ -58,7 +58,7 @@ mockk = "1.13.11"
 
 # Other
 napier = "2.7.1"
-detekt = "1.23.6"
+detekt = "1.23.7"
 twitterComposeRule = "0.0.26"
 kover = "0.8.3"
 buildKonfig = "0.15.1"

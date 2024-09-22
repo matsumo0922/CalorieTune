@@ -3,9 +3,9 @@ package me.matsumo.calorie.tune.core.ui
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
-import me.matsumo.fanbox.core.ui.theme.color.DarkBlueColorScheme
-import me.matsumo.fanbox.core.ui.theme.color.LightBlueColorScheme
 import me.matsumo.calorie.tune.core.model.Theme
+import me.matsumo.calorie.tune.core.ui.colors.DarkBlueColorScheme
+import me.matsumo.calorie.tune.core.ui.colors.LightBlueColorScheme
 
 @Composable
 fun TranslatorTheme(

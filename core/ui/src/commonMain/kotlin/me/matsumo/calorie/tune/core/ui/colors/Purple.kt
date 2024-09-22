@@ -1,6 +1,6 @@
 @file:Suppress("UnusedPrivateMember")
 
-package me.matsumo.fanbox.core.ui.theme.color
+package me.matsumo.calorie.tune.core.ui.colors
 
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
